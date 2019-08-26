@@ -16,7 +16,7 @@ class Anagram
       else
         matches.empty?
       end
-      match
     end
+    matches 
   end
 end
