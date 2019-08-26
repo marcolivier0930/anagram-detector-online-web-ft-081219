@@ -9,6 +9,6 @@ class Anagram
   def match(array)
     matches = []
     
-    matches << if word
+    matches << if word.split('').sort == self.word.split('').sort 
   end
 end
