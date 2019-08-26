@@ -1,4 +1,5 @@
 # Your code goes here!
+require 'pry'
 class Anagram
   attr_accessor :word
     
@@ -8,6 +9,6 @@ class Anagram
   
   def match(array)
     matches = []
-    matches << if word.split('').sort == self.word.split('').sort 
+    matches << word if word.split('').sort == self.word.split('').sort 
   end
 end
