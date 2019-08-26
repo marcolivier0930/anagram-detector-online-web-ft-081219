@@ -14,7 +14,7 @@ class Anagram
       if word.split('').sort == self.word.split('').sort 
         matches << word 
       else
-        matches.empty 
+        matches.empty?
       end
       match
     end
