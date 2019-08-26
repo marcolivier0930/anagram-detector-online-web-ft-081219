@@ -11,4 +11,5 @@ class Anagram
     matches = []
     matches << word if word.split('').sort == self.word.split('').sort 
   end
+  matches
 end
